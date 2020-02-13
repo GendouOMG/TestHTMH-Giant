@@ -1,0 +1,254 @@
+.our-offers {
+	margin: 0 auto;
+	padding: 0;
+
+	min-width: 1180px;
+	height: 920px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.our-offers__headline {
+	margin: 0 auto;
+	padding: 120px 0 30px 0;
+
+	width: 680px;
+	height: auto;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: 600;
+	// text-transform: uppercase;
+	color: #222222;
+}
+
+.our-offers__description {
+	margin: 0 auto;
+	padding: 0;
+
+	width: 680px;
+	height: auto;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	// text-transform: uppercase;
+	color: #777777;
+}
+
+.our-offers__list {
+	margin: 80px auto 0 auto;
+	padding: 0;
+
+	display: inline-flex;
+	flex-grow: 0;
+	align-items: center;
+	justify-content: space-around;
+
+	// font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	// font-size: 36px;
+	// line-height: 30px;
+	// font-weight: 500;
+	// text-transform: uppercase;
+	// color: #222222;
+}
+
+.our-offers__offer {
+	margin: 0 15px;
+	padding: 0;
+
+	display: block;
+
+	width: 262px;
+	height: 480px;
+
+	// background: #f7fafc;
+
+	// font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	// font-size: 36px;
+	// line-height: 30px;
+	// font-weight: 500;
+	// text-transform: uppercase;
+	// color: #222222;
+
+	// background:  url("../img/bg-triangle.png") center 50px no-repeat, #f7fafc;
+	background:  url("../img/bg-triangle-white.png") center 50px no-repeat, #f7fafc;
+	
+	&.our-offers__offer--special {
+		margin: 0 15px;
+		padding: 0;
+
+		display: block;
+
+		width: 262px;
+		height: 480px;
+
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+
+
+		background:  url("../img/bg-triangle.png") center 50px no-repeat, #ffffff;
+		box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
+	}
+}
+
+
+
+.our-offers__description {
+	margin: 30px 0 0 0;
+	padding: 0;
+
+	width: 660px;
+	height: auto;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	// text-transform: uppercase;
+	color: #777777;
+}
+
+.our-offers__name {
+	margin: 0;
+	padding: 16px 0;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 600;
+	// text-transform: uppercase;
+	color: #333333;
+}
+
+
+.our-offers__price {
+	margin: 0;
+	padding: 30px 0 0 0;
+
+	// display: block;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 48px;
+	line-height: 24px;
+	font-weight: 600;
+	// text-transform: uppercase;
+	color: #333333;
+
+	sup {
+		
+		font-size: 18px;
+		line-height: 24px;
+	}
+	
+	span {
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+}
+
+.our-offers__features {
+	margin: 0;
+	padding: 80px 0 0 0;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 300;
+	// text-transform: uppercase;
+	color: #777777;
+
+	li {
+		margin: 0 35px;
+		padding: 10px 0;
+
+		display: block;
+
+		font-family: Roboto, Arial, sans-serif;
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+		font-size: 14px;
+		line-height: 14px;
+		font-weight: 400;
+		// text-transform: uppercase;
+		color: #777777;
+
+		border-bottom: 1px dashed #eeeeee;
+
+		&:last-child {
+			// border-bottom: 0px solid white;
+			border: none;
+		}
+	}
+}
+
+.our-offers__propose {
+	margin: 40px 0 0 0;
+	padding: 0;
+
+	display: block;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 300;
+	// text-transform: uppercase;
+	color: #aaaaaa;
+}
+
+.our-offers__buy-link {
+	margin: 15px 0 0 0;
+	padding: 10px 40px 15px 40px;
+
+	display: inline-block;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 500;
+	// text-transform: uppercase;
+	color: #333333;
+
+	background: white;
+
+	border: 1px solid #eeeeee;
+	border-radius: 50px;
+}

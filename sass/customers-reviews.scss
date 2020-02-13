@@ -1,0 +1,166 @@
+.customers-reviews {
+	margin: 0 auto;
+	padding: 0;
+
+	display: block;
+
+	min-width: 1180px;
+	height: 690px;
+
+	
+
+	.customers-reviews__headline{
+		margin: 0 auto;
+		padding: 120px 0 30px 0;
+
+		width: 680px;
+		height: auto;
+
+		font-family: Dosis, Arial, sans-serif;
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+		font-size: 36px;
+		line-height: 30px;
+		font-weight: 600;
+		// text-transform: uppercase;
+		color: #222222;
+	}
+
+	.customers-reviews__description{
+		margin: 0 auto;
+		padding: 0;
+
+		width: 680px;
+		height: auto;
+
+		font-family: Roboto, Arial, sans-serif;
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+		// text-transform: uppercase;
+		color: #777777;
+	}
+}
+
+.customers-reviews__list {
+	margin: 80px auto 0 auto;
+	padding: 0;
+
+	display: flex;
+	justify-content: center;
+
+	// font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	// text-align: left;
+	// font-size: 14px;
+	// line-height: 24px;
+	// font-weight: 400;
+	// // text-transform: uppercase;
+	// color: #777777;
+}
+
+.customers-reviews__unit{
+	margin: 0 15px;
+	padding: 0;
+
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+
+	width: 360px;
+	height: 270px;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	// text-transform: uppercase;
+	color: #777777;
+
+	background: #f7fafc;
+
+	&.customers-reviews__unit--active{
+		background: #ffffff;
+		box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+	}
+
+}
+
+.customers-reviews__review {
+	margin: 0;
+	padding: 40px;
+
+	display: block;
+
+	width: 280px;
+
+}
+
+.customers-reviews__name {
+	margin: 0;
+	padding: 0 0 0 140px;
+
+	display: block;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 500;
+	// text-transform: uppercase;
+	color: #222222;
+
+
+}
+
+.customers-reviews__org {
+	margin: 0;
+	padding: 10px 0 0 140px;
+
+	display: block;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 400;
+	// text-transform: uppercase;
+	color: #777777;
+}
+
+.customers-reviews__photo{
+		position: absolute;
+		bottom: 40px;
+		left: 40px;
+
+		display: block;
+
+		width: 80px;
+		height: 80px;
+
+		&.customers-reviews__photo--bullok{
+			background: url("../img/bullock-photo.png")  center no-repeat;
+		}
+
+		&.customers-reviews__photo--sebastian{
+			background: url("../img/Sebastian-photo.png")  center no-repeat;
+		}
+
+		&.customers-reviews__photo--bilbau{
+			background: url("../img/bilbau-photo.png")  center no-repeat;
+		}
+
+	}

@@ -1,0 +1,201 @@
+.our-advantages {
+	margin: 0;
+	padding: 0;
+
+	min-width: 1180px;
+	height: auto;
+
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: center;
+
+	text-decoration: none;
+}
+
+.our-advantages__list {
+	margin: 0 auto;
+	padding: 90px 0;
+
+	width: 1140px;
+	height: auto;
+
+	display: flex;
+	flex-wrap: wrap;
+
+	// font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	// text-align: center;
+	// font-size: 14px;
+	// line-height: 14px;
+	// font-weight: 400;
+	// text-transform: uppercase;
+	// color: #fff;
+
+	border-bottom: 2px solid #eeeeee;
+}
+
+.our-advantages__unit {
+	margin: 30px auto;
+	padding: 0;
+
+	position: relative;
+
+	width: 360px;
+	height: 100px;
+
+	text-decoration: none;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.our-advantages__headline {
+	margin: 0 0 0 100px;
+	padding: 0;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	// text-align: center;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 700;
+	// text-transform: uppercase;
+	color: #222222;
+}
+
+.our-advantages__description {
+	margin: 20px 0 0 100px;
+	padding: 0;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	// text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	// text-transform: uppercase;
+	color: #777777;
+}
+
+.our-advantages__icon {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	margin: 0;
+	padding: 0;
+
+	width: 75px;
+	height: 75px;
+
+	border: 1px solid #eeeeee;
+	border-radius: 50px;
+	
+	&.our-advantages__icon--tickets {
+		background: url("../img/tickets.png") center center no-repeat;
+	}
+	&.our-advantages__icon--gear {
+		background: url("../img/gear.png") center center no-repeat;
+	}
+	&.our-advantages__icon--brush {
+		background: url("../img/brush.png") center center no-repeat;
+	}
+	&.our-advantages__icon--extinguisher {
+		background: url("../img/extinguisher.png") center center no-repeat;
+	}
+	&.our-advantages__icon--blank {
+		background: url("../img/blank.png") center center no-repeat;
+	}
+	&.our-advantages__icon--ball {
+		background: url("../img/ball.png") center center no-repeat;
+	}
+}
+
+
+.our-advantages__cool-description{
+	margin: 0 auto;
+	// padding: 0 0 0 585px;
+	padding: 0;
+
+	width: 1140px;
+	height: 710px;
+
+	background: url("../img/phonefordescription.jpg") left no-repeat;
+}
+
+.our-advantages__text-wrapper {
+	margin: 0 auto;
+	padding: 170px 0 0 585px;
+
+	width: 530px;
+	height: auto;
+}
+
+.our-advantages__cool-headline {
+	margin: 0;
+	padding: 0 0 30px 0;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	// text-align: center;
+	font-size: 36px;
+	line-height: 30px;
+	font-weight: 700;
+	// text-transform: uppercase;
+	color: #222222;
+}
+
+.our-advantages__text {
+	margin: 0;
+	padding: 0;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	// text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	// text-transform: uppercase;
+	color: #777777;
+
+	&.our-advantages__text--second-paragraph {
+		margin: 0;
+		padding: 80px 0 20px 0;
+	}
+}
+
+.our-advantages__advantages-list {
+	margin: 0;
+	padding: 0;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	// text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 500;
+	// text-transform: uppercase;
+	color: #777777;
+
+	li {
+		padding: 0;
+		margin: 20px 0 0 0;
+		
+		display: flex;
+		align-items: center;
+
+		.round-mark {
+		padding: 0;
+		margin: 0 20px 0 0;
+
+		display: block;
+		width: 15px;
+		height: 15px;
+		background: url("../img/round-mark.png") top center no-repeat;
+		filter: invert(1);
+		}
+	}
+}

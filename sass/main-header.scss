@@ -1,0 +1,241 @@
+.main-header {
+	padding: 0;
+	margin: 0;
+
+	display: flex;
+	flex-direction: column;
+	
+	min-width: 1180px;
+	height: 800px;
+
+	background: url("../img/bannerphones.jpg") top center no-repeat;
+}
+
+.main-header__menu{
+	padding: 0;
+	margin: 30px auto 0 auto;
+
+	width: 1140px;
+	height: auto;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.main-header__logo {
+	padding: 0;
+	margin: auto 0;
+
+	display: block;
+	width: 128px;
+	height: 40px;
+
+	img{
+		padding: 0;
+		margin: auto 0;
+
+		display: block;
+		width: 128px;
+		height: 40px;
+	}
+}
+
+.main-header__navigation {
+	margin: 0;
+	padding: 0;
+
+	display: flex;
+
+	text-decoration: none;
+	text-align: center;
+	list-style-type: none;
+	// font-size: 27px;
+	// line-height: 30px;
+	// font-weight: 700;
+	// text-transform: uppercase;
+	// color: #000000;
+}
+
+.main-header__link {
+	margin: auto 0 auto 52px;
+	padding: 0;
+
+	display: flex;
+	text-align: center;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 400;
+	// text-transform: uppercase;
+	color: #fff;
+
+	a{
+		margin: 0;
+		padding: 0;
+
+		display: flex;
+		text-align: center;
+
+		font-family: Roboto, Arial, sans-serif;
+		text-decoration: none;
+		text-align: center;
+		font-size: 14px;
+		line-height: 14px;
+		font-weight: 400;
+		// text-transform: uppercase;
+		color: #fff;
+	}
+
+	&.main-header__link--download {
+		margin: 0 0 0 40px;
+		padding: 0;
+
+		display: flex;
+		text-align: center;
+
+		text-decoration: none;
+		text-align: center;
+		font-size: 14px;
+		line-height: 14px;
+		font-weight: 500;
+		// text-transform: uppercase;
+		color: #000;
+		border: 0px solid black;
+		border-radius: 50px;
+		background: #fff;
+
+		a{
+			margin: 0;
+			padding: 10px 30px;
+
+			display: flex;
+			text-align: center;
+
+			text-decoration: none;
+			text-align: center;
+			font-size: 14px;
+			line-height: 14px;
+			font-weight: 500;
+			// text-transform: uppercase;
+			color: #000;
+			border: 0px solid black;
+			border-radius: 50px;
+			background: #fff;
+		}
+	}
+}
+
+
+.main-header__description {
+	padding: 0;
+	margin: 0 auto;
+
+	width: 1140px;
+	height: auto;
+}
+
+
+
+.main-header__description {
+	padding: 0;
+	margin: 150px auto 0 auto;
+
+	width: 1140px;
+	height: auto;
+}
+
+.main-header__slogan {
+	padding: 0;
+	margin: 0;
+
+	width: 500px;
+	height: auto;
+
+	font-family: Dosis, Arial, sans-serif;
+	text-decoration: none;
+	text-align: left;
+	font-size: 54px;
+	line-height: 60px;
+	font-weight: 600;
+	// text-transform: uppercase;
+	color: #fff;
+}
+
+.main-header__short-description {
+	padding: 0;
+	margin: 20px 0 0 0;
+
+	width: 500px;
+	height: auto;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	text-align: auto;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 300;
+	// text-transform: uppercase;
+	color: #fff;
+}
+
+.main-header__advantages {
+	padding: 0;
+	margin: 0;
+
+	width: 500px;
+	height: auto;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 400;
+	// text-transform: uppercase;
+	color: #fff;
+
+	li {
+		padding: 0;
+		margin: 20px 0 0 0;
+		
+		display: flex;
+		align-items: center;
+
+		.round-mark {
+		padding: 0;
+		margin: 0 20px 0 0;
+
+		display: block;
+		width: 15px;
+		height: 15px;
+		background: url("../img/round-mark.png") top center no-repeat;
+		}
+	}
+}
+
+.main-header__promo-link {
+	padding: 15px 40px;
+	margin: 40px 0 0 0;
+
+	display: inline-block;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 500;
+	// text-transform: uppercase;
+	color: #000;
+	border: 0px solid #e25c30;
+	border-radius: 50px;
+	background: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+

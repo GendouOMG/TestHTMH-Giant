@@ -1,0 +1,84 @@
+.our-contacts {
+	margin: 0;
+	padding: 0;
+
+	min-width: 1180px;
+	height: auto;
+
+	background: #222222;
+}
+
+.our-contacts__list {
+	margin: 55px 0 30px 0;
+	padding: 0;
+
+	display: flex;
+	justify-content: center;
+
+	// font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	// text-align: center;
+	// font-size: 14px;
+	// line-height: 14px;
+	// font-weight: 400;
+	// text-transform: uppercase;
+	// color: #ffffff;
+}
+
+.our-contacts__link {
+	margin: 0 10px;
+	padding: 0;
+
+	display: block;
+	
+	width: 25px;
+	height: 20px;
+
+	a{
+		margin: 0;
+		padding: 0;
+
+		display: block;
+	
+		width: 25px;
+		height: 20px;
+	}
+
+
+	&.our-contacts__link--facebook{
+		background: url("../img/facebook-icon.png") bottom center no-repeat;
+	}
+
+	&.our-contacts__link--twitter{
+		background: url("../img/twitter-icon.png") bottom center no-repeat;
+	}
+
+	&.our-contacts__link--big{
+		background: url("../img/big-icon.png") bottom center no-repeat;
+	}
+
+	&.our-contacts__link--be{
+		background: url("../img/be-icon.png") bottom center no-repeat;
+	}
+}
+
+.our-contacts__copyright {
+	margin: 0;
+	padding: 0 0 55px 0;
+
+	font-family: Roboto, Arial, sans-serif;
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 400;
+	// text-transform: uppercase;
+	color: #ffffff;
+}
+
+// facebook-icon.png
+// twitter-icon.png
+// big-icon.png
+// be-icon.png

@@ -1,0 +1,63 @@
+.our-works{
+	margin: 0 auto;
+	padding: 0;
+
+	min-width: 1180px;
+	height: 920px;
+
+	background: #f7fafc;
+
+	h2{
+		margin: 0 auto;
+		padding: 120px 0 30px 0;
+
+		width: 680px;
+		height: auto;
+
+		font-family: Dosis, Arial, sans-serif;
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+		font-size: 36px;
+		line-height: 30px;
+		font-weight: 600;
+		// text-transform: uppercase;
+		color: #222222;
+	}
+
+	p{
+		margin: 0 auto;
+		padding: 0;
+
+		width: 680px;
+		height: auto;
+
+		font-family: Roboto, Arial, sans-serif;
+		text-decoration: none;
+		list-style-type: none;
+		text-align: center;
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+		// text-transform: uppercase;
+		color: #777777;
+	}
+
+}
+
+.carousel {
+		margin: 0 auto;
+		padding: 0;
+		width: 1150px;
+		height: 650px;
+		
+		.carousel-item {
+			width: 360px;
+			height: 500px;
+
+			img{
+				width: 90%;
+			}
+		}
+		
+	}

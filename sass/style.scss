@@ -1,0 +1,25 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: Dosis, Roboto, Arial, sans-serif;
+}
+
+$mobile-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1140px;
+
+@import "main-header.scss";
+@import "our-advantages.scss";
+@import "our-works.scss";
+@import "our-offers.scss";
+@import "video-section.scss";
+@import "customers-reviews.scss";
+@import "contacts.scss";
+@import "app-links.scss";
+@import "our-contacts.scss";
+@import "materialize.scss";
+@import "carousel.scss";
+// @import "сreation-process";
+
+
