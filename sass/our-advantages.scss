@@ -96,22 +96,22 @@
 	border-radius: 50px;
 	
 	&.our-advantages__icon--tickets {
-		background: url("../img/tickets.png") center center no-repeat;
+		background: url("../img/tickets.png")  center no-repeat;
 	}
 	&.our-advantages__icon--gear {
-		background: url("../img/gear.png") center center no-repeat;
+		background: url("../img/gear.png")  center no-repeat;
 	}
 	&.our-advantages__icon--brush {
-		background: url("../img/brush.png") center center no-repeat;
+		background: url("../img/brush.png")  center no-repeat;
 	}
 	&.our-advantages__icon--extinguisher {
-		background: url("../img/extinguisher.png") center center no-repeat;
+		background: url("../img/extinguisher.png")  center no-repeat;
 	}
 	&.our-advantages__icon--blank {
-		background: url("../img/blank.png") center center no-repeat;
+		background: url("../img/blank.png")  center no-repeat;
 	}
 	&.our-advantages__icon--ball {
-		background: url("../img/ball.png") center center no-repeat;
+		background: url("../img/ball.png")  center no-repeat;
 	}
 }
 
@@ -196,7 +196,7 @@
 		display: block;
 		width: 15px;
 		height: 15px;
-		background: url("../img/round-mark.png") top center no-repeat;
+		background: url("../img/round-mark.png") top no-repeat;
 		filter: invert(1);
 		}
 	}

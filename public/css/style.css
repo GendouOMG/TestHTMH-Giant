@@ -11,7 +11,7 @@ body {
   min-width: 1180px;
   height: 800px;
   background-color: #f9514a;
-  background: url("../img/bannerphones.jpg") top center no-repeat; }
+  background-image: url("../img/bannerphones.jpg"); }
 
 .main-header__menu {
   padding: 0;
@@ -158,7 +158,7 @@ body {
       display: block;
       width: 15px;
       height: 15px;
-      background: url("../img/round-mark.png") top center no-repeat; }
+      background: url("../img/round-mark.png"); }
 
 .main-header__promo-link {
   padding: 15px 40px;
@@ -240,17 +240,17 @@ body {
   border: 1px solid #eeeeee;
   border-radius: 50px; }
   .our-advantages__icon.our-advantages__icon--tickets {
-    background: url("../img/tickets.png") center center no-repeat; }
+    background: url("../img/tickets.png") center no-repeat; }
   .our-advantages__icon.our-advantages__icon--gear {
-    background: url("../img/gear.png") center center no-repeat; }
+    background: url("../img/gear.png") center no-repeat; }
   .our-advantages__icon.our-advantages__icon--brush {
-    background: url("../img/brush.png") center center no-repeat; }
+    background: url("../img/brush.png") center no-repeat; }
   .our-advantages__icon.our-advantages__icon--extinguisher {
-    background: url("../img/extinguisher.png") center center no-repeat; }
+    background: url("../img/extinguisher.png") center no-repeat; }
   .our-advantages__icon.our-advantages__icon--blank {
-    background: url("../img/blank.png") center center no-repeat; }
+    background: url("../img/blank.png") center no-repeat; }
   .our-advantages__icon.our-advantages__icon--ball {
-    background: url("../img/ball.png") center center no-repeat; }
+    background: url("../img/ball.png") center no-repeat; }
 
 .our-advantages__cool-description {
   margin: 0 auto;
@@ -309,7 +309,7 @@ body {
       display: block;
       width: 15px;
       height: 15px;
-      background: url("../img/round-mark.png") top center no-repeat;
+      background: url("../img/round-mark.png") top no-repeat;
       -webkit-filter: invert(1);
               filter: invert(1); }
 
@@ -533,7 +533,7 @@ body {
   padding: 0;
   min-width: 1180px;
   height: 400px;
-  background: url("../img/video-preview.jpg") center center no-repeat; }
+  background: url("../img/video-preview.jpg") center no-repeat; }
   .video-section a {
     margin: 0;
     padding: 0;
@@ -541,7 +541,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: #00384b;
-    background: url("../img/video-preview.jpg") center center no-repeat; }
+    background: url("../img/video-preview.jpg") center no-repeat; }
 
 .customers-reviews {
   margin: 0 auto;
@@ -666,7 +666,7 @@ body {
   flex-direction: column;
   min-width: 1180px;
   height: auto;
-  background: url("../img/bg-footer.jpg") top center no-repeat; }
+  background: url("../img/bg-footer.jpg"); }
 
 .app-links__headline {
   margin: 0 auto;
@@ -743,11 +743,11 @@ body {
   width: 115px;
   height: 115px; }
   .app-links__icons.app-links__icons--apple {
-    background: url("../img/mac-icon.png") center center no-repeat; }
+    background: url("../img/mac-icon.png") center no-repeat; }
   .app-links__icons.app-links__icons--android {
-    background: url("../img/android-icon.png") center center no-repeat; }
+    background: url("../img/android-icon.png") center no-repeat; }
   .app-links__icons.app-links__icons--windows {
-    background: url("../img/windowsicon.png") center center no-repeat; }
+    background: url("../img/windowsicon.png") center no-repeat; }
 
 .our-contacts {
   margin: 0;
@@ -777,13 +777,13 @@ body {
     width: 25px;
     height: 20px; }
   .our-contacts__link.our-contacts__link--facebook {
-    background: url("../img/facebook-icon.png") bottom center no-repeat; }
+    background: url("../img/facebook-icon.png") bottom no-repeat; }
   .our-contacts__link.our-contacts__link--twitter {
-    background: url("../img/twitter-icon.png") bottom center no-repeat; }
+    background: url("../img/twitter-icon.png") bottom no-repeat; }
   .our-contacts__link.our-contacts__link--big {
-    background: url("../img/big-icon.png") bottom center no-repeat; }
+    background: url("../img/big-icon.png") bottom no-repeat; }
   .our-contacts__link.our-contacts__link--be {
-    background: url("../img/be-icon.png") bottom center no-repeat; }
+    background: url("../img/be-icon.png") bottom no-repeat; }
 
 .our-contacts__copyright {
   margin: 0;
